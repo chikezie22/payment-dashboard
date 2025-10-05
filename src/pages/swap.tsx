@@ -115,7 +115,7 @@ const Page = () => {
         {isLoadingRates ? (
           <p className="text-sm opacity-60">Loading exchange rates...</p>
         ) : rate ? (
-          <div className="p-3 bg-amber-100 rounded-sm space-y-2">
+          <div className="p-3 bg-green-400 rounded-sm space-y-2">
             <p className="text-sm">
               Exchange Rate: 1 {fromCurrency} = {rate.toFixed(4)} {toCurrency}
             </p>
